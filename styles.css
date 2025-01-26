@@ -187,3 +187,12 @@ body {
   font-size: 0.8rem; /* Perkecil ukuran font */
   padding: 5px 10px; /* Perkecil padding */
 }
+
+/* Custom footer style to align with humidity card */
+.footer-custom {
+  width: 50%;
+  max-width: 315px; /* Sesuaikan lebar sesuai dengan card kelembapan */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right; /* Pastikan teks berada di tengah dalam elemen footer */
+}
