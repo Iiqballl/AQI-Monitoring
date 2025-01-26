@@ -1,0 +1,189 @@
+body {
+  font-family: 'Roboto', sans-serif; /* Ubah font menjadi Roboto */
+  background-color: #f5f5f5;
+  font-size: 14px; /* Perkecil ukuran font secara keseluruhan */
+}
+
+.sidebar {
+  height: 100vh;
+  padding: 0;
+  background-color: #2a6eb8; /* Warna biru yang lebih baik */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16.666667%;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.sidebar .sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar .nav-link {
+  color: #ffffff;
+  padding: 10px 15px; /* Perkecil padding */
+  font-size: 0.9rem; /* Perkecil ukuran font */
+  font-weight: normal; /* Normal weight */
+}
+
+.sidebar .nav-link.active {
+  font-weight: bold; /* Tebalkan teks saat menu dipilih */
+}
+
+.sidebar .nav-link:hover {
+  background-color: #2a6eb8;
+}
+
+.sidebar .nav-link i {
+  margin-right: 8px; /* Perkecil margin */
+}
+
+.sidebar .logo {
+  width: 80px; /* Ukuran logo */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.sidebar h5 {
+  font-size: 1rem; /* Perkecil ukuran font */
+}
+
+.card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+}
+
+.main-title {
+  font-family: 'Lora', serif; /* Ubah font menjadi Lora */
+  font-size: 1.5rem; /* Perkecil ukuran font */
+  color: #000000; /* Warna hitam */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.main-content {
+  margin-left: 16.666667%;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.1rem; /* Perkecil ukuran font */
+}
+
+.card-text {
+  font-size: 1.25rem; /* Perkecil ukuran font */
+}
+
+.text-muted {
+  font-size: 0.9rem; /* Perkecil ukuran font untuk timestamp */
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.page-item.active .page-link {
+  background-color: #2a6eb8;
+  border-color: #2a6eb8;
+}
+
+.form-control-sm {
+  width: 250px; /* Ukuran input pencarian */
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.table th:first-child, .table td:first-child {
+  text-align: center;
+  font-weight: bold;
+  color: #2a6eb8;
+}
+
+.input-group-append .input-group-text {
+  background-color: #fff;
+  border-left: 0;
+}
+
+.input-group .form-control {
+  border-right: 0;
+}
+
+.table td:first-child {
+  font-size: 0.75rem; /* Perkecil ukuran font untuk nomor urut */
+  background-color: #f8f9fa; /* Warna latar belakang untuk nomor urut */
+  border-right: 1px solid #dee2e6; /* Border kanan untuk nomor urut */
+  width: 40px; /* Lebar kolom nomor urut */
+}
+
+.search-box {
+  width: 250px; /* Lebar kotak pencarian */
+}
+
+.btn-primary {
+  background-color: #2a6eb8; /* Warna tombol unduh PDF */
+  border-color: #2a6eb8; /* Warna border tombol unduh PDF */
+}
+
+/* Additional styles for air quality category */
+.air-quality-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+}
+
+.air-quality-category.baik {
+  background-color: #28a745;
+}
+
+.air-quality-category.sedang {
+  background-color: #ffc107;
+}
+
+.air-quality-category.tidak-sehat {
+  background-color: #dc3545;
+}
+
+.air-quality-category.sangat-tidak-sehat {
+  background-color: #6c757d;
+}
+
+.air-quality-category.berbahaya {
+  background-color: #343a40;
+}
+
+.air-quality-category i {
+  margin-right: 10px;
+}
+
+/* Styles for filter box */
+.filter-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+}
+
+.filter-box .input-group-text {
+  font-size: 0.8rem; /* Perkecil ukuran font */
+}
+
+.filter-box .form-control {
+  font-size: 0.8rem; /* Perkecil ukuran font */
+  padding: 5px; /* Perkecil padding */
+}
+
+.filter-box .btn {
+  font-size: 0.8rem; /* Perkecil ukuran font */
+  padding: 5px 10px; /* Perkecil padding */
+}
