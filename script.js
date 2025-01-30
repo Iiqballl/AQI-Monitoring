@@ -44,7 +44,7 @@ async function fetchData() {
   const channelId = '2819146'; // Ganti dengan Channel ID Anda
   const readApiKey = 'MQIDSCJT83BEANGW'; // Ganti dengan Read API Key Anda
   const randomParam = Math.random(); // Tambahkan parameter acak untuk menghindari cache
-  const url = `https://api.thingspeak.com/channels/${channelId}/feeds.json?api_key=${readApiKey}&results=1000&random=${randomParam}`; // Ambil hingga 1000 data
+  const url = `https://api.thingspeak.com/channels/${channelId}/feeds.json?api_key=${readApiKey}&results=8000&random=${randomParam}`; // Ambil hingga 1000 data
 
   try {
     const response = await fetch(url);
